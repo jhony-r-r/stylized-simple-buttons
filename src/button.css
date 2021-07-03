@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin:  0;
+    padding: 0;
+}
+
+html, 
+body {
+    width: 100%;
+    height: 100vh;
+    text-rendering: optimizeLegibility;
+    background-color: #fff;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #fff;
+}
+
+.container-title {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(82, 142, 190);
+    padding: 2rem .5rem 2rem;;
+}
+
+.container-title h1 {
+    color: #fff;
+    font-size: 2.8rem;
+    line-height: 3.8rem;
+    text-transform: capitalize;
+    display: flex;
+    margin: auto;
+    font-weight: lighter;
+}
+
+section {
+    position: relative;
+    top: 15px;
+}
+
+.container {
+    width: 100%;
+    max-width: 240px;
+    margin: auto;
+    align-items: center;
+    padding: 4rem 2rem 4rem;
+    background-color: transparent;
+}
+
+.btn {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    display: block;
+    padding: .5rem .2rem .5rem;
+    font-size: 1.8rem;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-save {
+    width: 100%;
+    color: white;
+    background-color: rgb(75, 177, 126);
+    font-weight: bolder;
+    opacity: 0.8;
+}
+
+.btn-update {
+    width: 80%;
+    color: rgb(163, 163, 53);
+    border: 1px solid rgb(163, 163, 53);
+    background-color: transparent;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.btn-consult {
+    background-color: rgb(54, 124, 182);
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+i {
+    width: 15px;
+    height: 15px;
+    color: white;
+}
+
+.btn-delete {
+    width: 50%;
+    color: #fff;
+    background-color: rgba(146, 33, 25, 0.863);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-transform: uppercase;
+    padding: 1rem .5rem 1rem;
+    border: 1px solid #fff;
+}
+
+.btn-get-started {
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(75, 48, 150, 0.897), rgba(97, 52, 180, 0.507));
+    color: rgba(255, 255, 255, 0.733);
+    font-weight: bold;
+    padding: 1rem 0rem 1rem;
+    border-radius: 12px;
+}
+
+.btn-close {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    width: 40%;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    font-weight: lighter;
+    padding: .9rem .2rem .9rem;
+}
